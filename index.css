@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#box {
+  background: red;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 20px solid green;
+  position: relative;
+}
+#borderColor {
+  position: absolute;
+  top: -38px;
+  color: #fff;
+  border-bottom: #000 solid 2px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+button {
+    cursor: pointer;
+}
